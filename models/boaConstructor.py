@@ -11,7 +11,7 @@ class BoaConstructor(AnimalExotico, IAnimal):
         return "¡Tsss!"
 
     def comer_ratones(self, ratones: int):
-        if self.ratones == 10:
+        if self.ratones == 20:
             raise ValueError("Demasiados Ratones!")
         else:
             self.ratones += 1
